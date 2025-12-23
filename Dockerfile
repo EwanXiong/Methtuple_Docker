@@ -7,7 +7,7 @@ WORKDIR /app
 RUN pip install methtuple
 
 
-# 清理缓存
+# clean cache
 RUN conda clean -a -y && \
     pip cache purge
 
