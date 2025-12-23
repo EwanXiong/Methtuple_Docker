@@ -3,7 +3,7 @@ FROM continuumio/miniconda3:latest
 WORKDIR /app
 
 
-# 安装 methtube
+# install methtube by pip
 RUN pip install methtuple
 
 
